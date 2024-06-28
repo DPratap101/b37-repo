@@ -1,0 +1,72 @@
+body{
+    background-color: red;
+    height: 100vh;
+    font-weight: bold;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+form{
+    margin-top: 20px;
+    margin-left: 550px;
+    background-color: white;
+    width: 400px;
+    height: 650px;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+
+select,input,textarea{
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+label:not(.no-style){
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+input[type="url"]{
+    width:85%;
+    border-radius: 5px;
+}
+
+.pad{
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+button{
+    margin-left: 155px ;
+    background-color: rgb(32, 139, 32);
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 18%;
+    padding: 10px;
+}
+.space{
+    width: 350px;
+}
+.spacetextarea{
+    width: 337px;
+}
+
+.spaceinput{
+    width:337px;
+}
